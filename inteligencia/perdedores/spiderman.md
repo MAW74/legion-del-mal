@@ -7,3 +7,8 @@ Su identidad más conocida es Peter Parker, un joven de Nueva York que adquiere 
 
 - Doctor Octopus
 - Green Goblin
+
+## Conocidos
+
+- MJ
+- Iron Man
