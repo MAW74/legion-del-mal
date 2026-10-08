@@ -27,3 +27,17 @@ Su identidad más conocida es Peter Parker, un joven de Nueva York que adquiere 
 - Cansancio: aunque es muy resistente, puede agotarse.
 - Responsabilidad: intenta salvar a todo el mundo, incluso poniendo en peligro su propia vida.
 - Sentido arácnido limitado: no siempre consigue detectar o evitar todos los peligros.
+
+## Películas
+- Spider-Man
+- Spider-Man 2
+- Spider-Man 3
+- The Amazing Spider-Man
+- The Amazing Spider-Man 2
+- Spider-Man: Homecoming
+- Spider-Man: Un nuevo universo
+- Spider-Man: Lejos de casa
+- Spider-Man: No Way Home
+- Spider-Man: Cruzando el multiverso
+- Spider-Man: Brand New Day
+- Spider-Man: Beyond the Spider-Verse
