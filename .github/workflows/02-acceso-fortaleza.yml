@@ -31,7 +31,7 @@ jobs:
                     ls planes/
                     echo ""
                     echo "villanos"
-                    ls villanos/
+                    ls miembros/
                     echo ""
                     echo "Inteligencia"
                     ls inteligencia/
