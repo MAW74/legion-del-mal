@@ -17,18 +17,3 @@ jobs:
                     echo ""
                     echo "Pero que pasó? No hay nada"
 
-            -   name: Brainiac desbloquea la bóveda
-                uses: actions/checkout@v4
-
-            -   name: Ahora sí, vamos a ver los planes
-                run: |
-                    echo "Buscar los archivos de la Legión"
-                    ls -la
-                    echo ""
-                    echo "Funciona !!!"
-                    echo "Planes:"
-                    ls planes/
-                    echo "Villanos:"
-                    ls villanos/
-                    echo "Inteligencia:"
-                    ls inteligencia/
