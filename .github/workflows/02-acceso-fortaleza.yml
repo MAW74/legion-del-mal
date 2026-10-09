@@ -26,4 +26,12 @@ jobs:
                     ls -la
                     echo ""
                     echo "Funciona!!!"
-
+                    echo ""
+                    echo "Planes"
+                    ls planes/
+                    echo ""
+                    echo "villanos"
+                    ls villanos/
+                    echo ""
+                    echo "Inteligencia"
+                    ls inteligencia/
