@@ -10,10 +10,24 @@ on:
         type: choice
         options:
           - Lex Luthor
-          - Magnero
+          - Magneto
           - Jocker
           - Mystique
           - Brainiac
+
+      mensaje:
+        descripcion: "Mensaje para el consejo"
+        required: true
+        default: "La misión fue un éxito"
+
+      prioridad:
+        descripcion: "Nivel de prioridad"
+        required: true
+        type: choice
+        options:
+          - 🟢 Normal
+          - 🟡 Alta
+          - 🔴 Crítica
 
 jobs:
   transmitir-mensaje:
