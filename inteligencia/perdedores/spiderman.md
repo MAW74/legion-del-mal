@@ -41,3 +41,5 @@ Su identidad más conocida es Peter Parker, un joven de Nueva York que adquiere 
 - Spider-Man: Cruzando el multiverso
 - Spider-Man: Brand New Day
 - Spider-Man: Beyond the Spider-Verse
+
+## Estrategia recomendada
