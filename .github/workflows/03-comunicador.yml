@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       villano:
-        descripcion: "¿Qué villano envía el mensaje?"
+        description: "¿Qué villano envía el mensaje?"
         required: true
         type: choice
         options:
@@ -15,12 +15,12 @@ on:
           - Brainiac
 
       mensaje:
-        descripcion: "Mensaje para el consejo"
+        description: "Mensaje para el consejo"
         required: true
         default: "La misión fue un éxito"
 
       prioridad:
-        descripcion: "Nivel de prioridad"
+        description: "Nivel de prioridad"
         required: true
         type: choice
         options:
@@ -33,12 +33,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Instalar el transmisor de la Legión
+        run: sudo apt-get install -y cowsay
+
+
       - name: Imprimir inputs
         run: |
-          echo "Inputs: "
+          echo "===================================="
+          echo "    Transmisión interceptada"
+          echo "===================================="
           echo ""
-          echo "Villano: ${{ inputs.villano }}"
-          echo "Nivel: ${{ inputs.prioridad }}"
-          echo "Mensaje: ${{ inputs.mensaje }}"
-
-
+          echo "De: ${{ inputs.villano }}"
+          echo ""
+          echo "Fecha: $(date -u +"%d/%m/%Y - %H:%M UTC")"
+          echo "--------- Mensaje -----------"
+          cowsay -f eyes "${{ inputs.mensaje }}"
+          echo ""
+          echo "--- ${{ inputs.villano }}"
+          echo "--- Fin de la transmisión ---"
