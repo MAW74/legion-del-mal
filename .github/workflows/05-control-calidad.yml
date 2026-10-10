@@ -11,7 +11,7 @@ on:
 
 jobs:
 
-    revisión-de-calidad:
+    revision-de-calidad:
         runs-on: ubuntu-latest
         steps:
             -   name: Brainiac accede a los planes
